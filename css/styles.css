@@ -1,0 +1,193 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E
+}
+
+h1 {
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px; /* For
+  Dynamic Font-size [100% = 16px ; if i want 90px; 90/16 * 100 = 562.5]
+  or em = M: is the width of capital M * the number 1em = 16px = 100% */
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+
+img {
+  background-color: #dff6f0;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+
+.top-sun {
+  position: absolute;
+  right: 300px;
+  top: 60px;
+  background-color: #EAF6F6;
+}
+
+.beetle-img {
+  background-color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.personal-img {
+  border-radius: 500px;
+  height: 200px;
+  width: 200px;
+}
+
+ .middle-container {
+  margin: 100px 0;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.first-skill {
+  float: left;
+  margin-right: 30px;
+}
+
+.second-skill {
+  float: right;
+  margin-left: 30px;
+}
+
+.third-skill {
+  float: left;
+  margin-right: 30px;
+}
+
+.bottom-container {
+  background: #66BFBF;
+  Padding: 50px 0 20px;
+}
+
+.bottom-link {
+  position: relative;
+  top: 20px;
+  padding: 0 10px;
+}
+
+.copy-right {
+  color: #EAF6F6;
+  font-size: 10px;
+  padding-top: 30px;
+}
+
+
+.contact-message {
+  margin: 40px auto 60px;
+}
+
+.btn {
+  position: relative;
+  top: 30px;
+
+  font-family: 'Montserrat', sans-serif;
+  -moz-box-shadow: inset 0px 1px 0px 0px #11999e;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #11999e;
+  box-shadow: inset 0px 1px 0px 0px #11999e;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #11999e), color-stop(1, #11cdd4));
+  background: -moz-linear-gradient(center top, #11999e 5%, #11cdd4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#11999e', endColorstr='#11cdd4');
+  background-color: #11999e;
+  -webkit-border-top-left-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  border-top-left-radius: 20px;
+  -webkit-border-top-right-radius: 20px;
+  -moz-border-radius-topright: 20px;
+  border-top-right-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+  -moz-border-radius-bottomright: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-bottom-left-radius: 20px;
+  text-indent: 0;
+  border: 1px solid #fafafa;
+  display: inline-block;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  height: 39px;
+  line-height: 39px;
+  width: 148px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #262391;
+}
+
+.btn:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #11cdd4), color-stop(1, #11999e));
+  background: -moz-linear-gradient(center top, #11cdd4 5%, #11999e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#11cdd4', endColorstr='#11999e');
+  background-color: #11cdd4;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+/* This button was generated using CSSButtonGenerator.com */
+
+
+
+
+
+
+
